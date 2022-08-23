@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Selections from the introduction to Accuracy and the Laws of Credence, by Richard Pettigrew (OUP 2016), with notes by Jeff Russell</title>
+  <style>
+    .notes {
+      background-color: lightgray;
+      padding:  10px;
+    }
+
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Selections from the introduction to <em>Accuracy and the Laws of Credence</em>, by Richard Pettigrew (OUP 2016), with notes by Jeff Russell</h1>
+</header>
+<p><em>Yasho</em> knows very little about Sonya. He knows that she was a member of the CND in the 1960s, but that’s all. Yasho is more confident that Sonya is a political activist and an accountant than he is that she is an accountant.</p>
+<p><em>Cleo</em> knows nothing about the coin in front of her except that it is a trick coin that has either a 60% or a 70% chance of landing heads rather than tails. She is more confident that the coin will land tails on the next toss than she is that it will land heads.</p>
+<p><em>Kazuo</em> knows nothing about the colour of the handkerchief in my pocket. He is more confident that it is yellow/green than that it is red/orange, and more confident that it is red/orange than that it is blue/purple.</p>
+<p><em>Saskia</em>, unlike Yasho, is more confident that Sonya is an accountant than that she is an accountant and a political activist. In fact, she is <em>much</em> more confident: she is almost certain that Sonya is an accountant, and almost certain that she is not a political activist. If she learns for certain that Sonya is an accountant, she plans to become almost certain that Sonya is also a political activist.</p>
+<p>What do Yasho, Cleo, Kazuo, and Saskia have in common? Their <em>degrees of belief</em> or <em>credences</em> (or, in Saskia’s case, her plans for updating those degrees of belief or credences) are irrational.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> It is irrational to believe a conjunction more strongly than one of its conjuncts. It is irrational to know that one event is more likely than another, yet believe more strongly that the second will occur than that the first will. It is irrational to plan to become certain of a proposition one initially thought almost certainly false solely on the basis of learning the truth of another proposition of which one was already almost certain. It is irrational to believe one possibility more strongly than another if one has no evidence that tells between them. But what makes such credences irrational? What are the general principles of rational credence that Yasho, Cleo, Kazuo, and Saskia violate, and what establishes them? In this book, I wish to present and defend a particular answer to these questions.</p>
+<p>To see how this answer goes, we begin in this introduction with Yasho. Before saying what is irrational about his doxastic state, let’s say how we are going to represent it. Let us suppose that Yasho has opinions about only two propositions:</p>
+<ol type="A">
+<li>Sonya is a political activist and an accountant.</li>
+<li>Sonya is an accountant.</li>
+</ol>
+<p>We represent his doxastic state by a function <span class="math inline"><em>c</em></span> that takes each proposition about which he has an opinion and returns a real number that measures his credence (or degree of belief) in that proposition. By convention, we take 0 to measure minimal credence, and 1 to measure maximal credence.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Thus, we represent Yasho’s doxastic state by a function <span class="math inline"><em>c</em> : <em>A</em>, <em>B</em> → [0,1]</span> (where <span class="math inline">[0,1]</span> is the set of real numbers at least 0 and at most 1). We call <span class="math inline"><em>c</em></span> his <em>credence function</em> and <span class="math inline">{<em>A</em>, <em>B</em>}</span> his <em>opinion set</em>. In our example, Yasho has greater credence in <span class="math inline"><em>A</em></span> than in <span class="math inline"><em>B</em></span>: thus, <span class="math inline"><em>c</em>(<em>B</em>) &lt; <em>c</em>(<em>A</em>)</span>.</p>
+<div class="notes">
+<p>Notice that Pettigrew is using the letter <span class="math inline"><em>c</em></span> for degrees of confidence. We have been using the letter <span class="math inline"><em>P</em></span> in our class so far.</p>
+</div>
+<p>With this in hand, we have the resources to state the law of credence that Yasho violates:</p>
+<dl>
+<dt>No Drop</dt>
+<dd>If an agent has opinion set {A, B} and A entails B, then rationality requires that c(A) ≤ c(B).
+</dd>
+</dl>
+<p>It is named thus because it says that rationality requires that an agent’s credences not drop over a logical entailment. Throughout the book, the laws of credence we will be considering will have the same form as No Drop: that is, they will state necessary conditions for rationality.</p>
+<p>…</p>
+<!-- 
+I will not be concerned in this book with sufficient conditions for rationality. Nonetheless, in Part III, we will meet a range of putative necessary conditions on rationality each of which is satisfied by only one credence function. If you hold, as I do, that there must always be a rationally permissible option available to an agent in any given situation, then it follows that this unique credence function that satisfies the necessary conditions is rationally permissible—thus, in this case, the necessary conditions for rationality are also sufficient.
+ -->
+<p>What, then, makes it irrational to have a credence function that violates No Drop? I wish to adapt the argument proposed by Jim Joyce in his ‘A Non-Pragmatic Vindication of Probabilism’ Joyce, (Joyce, 1998). Together with Graham Oddie’s ‘Conditionalization, Cogency, and Cognitive Value’ (Oddie, 1997), Joyce’s paper introduced the sort of argument that I wish to describe, develop, and deploy in this book. Since then, such arguments have been given by a number of other philosophers, and the resulting field has come to be known as <em>epistemic utility theory</em>. This book is my attempt to describe and defend a particular position in this area, and to show how fruitful this approach can be.</p>
+<p>Here is Joyce’s answer to our present question: There is an alternative credence function that is guaranteed to be more <em>accurate</em> than Yasho’s credence function; this makes Yasho irrational. In the remainder of this chapter, we fill out this sketch of an answer and describe the general argument strategy to which it belongs. In the remainder of the book, we will put this argument strategy to work justifying other principles of rational credence, such as those that Cleo, Kazuo, and Saskia violate.</p>
+<p>We begin by asking what it means to say that one credence function is more accurate than another. Let us turn briefly from degrees of belief to full or categorical or all-or-nothing beliefs. Recall the propositions A and B from above:</p>
+<ol type="A">
+<li>Sonya is a political activist and an accountant.</li>
+<li>Sonya is an accountant.</li>
+</ol>
+<p>Suppose Taj believes A and believes B, while Chrisanthy believes B but disbelieves A. Then, if Sonya is an accountant and a political activist—so A and B are both true—it seems natural to say that Taj’s doxastic state is more accurate than Chrisanthy’s: both of her beliefs are true, while only one of Chrisanthy’s is. Similarly, if Sonya is an accountant, but not a political activist—so A is false, but B is true—it is natural to say that Chrisanthy’s doxastic state is more accurate than Taj’s. And similarly if Sonya is neither an accountant nor a political activist. We might conjecture that one set of full beliefs is more accurate than another if it contains a greater number of true beliefs and false disbeliefs.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>Now let us return to degrees of belief or credences. The problem is that there is no sense to saying that a credence is true or false. So how do we assess the accuracy of a credence function? My proposal is that the accuracy of a credence function for a particular agent in a particular situation is given by its proximity to the credence function that is <em>ideal</em> or <em>perfect</em> or <em>vindicated</em> in that situation. If a proposition is true in a situation, I claim, the ideal credence for an agent in that situation is the maximal credence, which is represented as 1. On the other hand, if a proposition is false, the ideal credence in it is the minimal credence, which is represented as 0. Thus, according to this claim, the ideal credence in a proposition is the omniscient credence in that proposition. … <!-- 
+Now, let us restrict attention in this part of the book only to so-called *uncentred propositions*, viz., propositions whose truth value is determined only by the possible world at which they are evaluated: to evaluate the truth of an uncentred proposition, it is not necessary also to specify the time or place or agent at which the proposition is to be evaluated. That is, we will consider only propositions like *Salt dissolves in water* (which is uncentred) and not propositions like *The salt in the glass in front of me will dissolve in the next ten minutes* (which is centred) (Lewis, 1979; Quine, 1969). Clearly, the omniscient credence in an uncentred proposition will change from possible world to possible world. --></p>
+<p>Let <span class="math inline"><em>w</em><sub>1</sub></span> be the possible world at which Sonya is a political activist and an accountant. And let <span class="math inline"><em>v</em><sub><em>w</em><sub>1</sub></sub></span> be the omniscient credence function over the opinion set <span class="math inline">{<em>A</em>, <em>B</em>}</span> at that world—that is, the credence function that assigns to each proposition in Yasho’s opinion set the omniscient credence in that proposition at <span class="math inline"><em>w</em><sub>1</sub></span>. Then <span class="math inline"><em>v</em><sub><em>w</em><sub>1</sub></sub>(<em>A</em>) = 1</span> and <span class="math inline"><em>v</em><sub><em>w</em><sub>1</sub></sub>(<em>B</em>) = 1</span>, since A and B are both true. Similarly, if <span class="math inline"><em>w</em><sub>2</sub></span> is the possible world at which Sonya is an accountant, but not a political activist, we have <span class="math inline"><em>v</em><sub><em>w</em><sub>2</sub></sub>(<em>A</em>) = 0</span> and <span class="math inline"><em>v</em><sub><em>w</em><sub>2</sub></sub>(<em>B</em>) = 1</span>, since <span class="math inline"><em>A</em></span> is false and <span class="math inline"><em>B</em></span> is true at w2. And finally, if <span class="math inline"><em>w</em><sub>3</sub></span> is the world at which Sonya is not an accountant, <span class="math inline"><em>v</em><sub><em>w</em><sub>3</sub></sub>(<em>A</em>) = 0</span> and <span class="math inline"><em>v</em><sub><em>w</em><sub>3</sub></sub>(<em>B</em>) = 0</span>, since <span class="math inline"><em>A</em></span> and <span class="math inline"><em>B</em></span> are both false at that world.</p>
+<div class="notes">
+<p>I’ll sum up what Pettigrew just said. We’re considering three different ways the world could be:</p>
+<ol type="1">
+<li>Sonya is a political activist and an accountant.</li>
+<li>Sonya is an accountant, but not a political activist</li>
+<li>Sonya is not an accountant</li>
+</ol>
+<p>(Notice that exactly one of these three things has to be true.) Pettigrew is describing what <em>ideal</em>—perfectly accurate—degrees of confidence in these two propositions would be in each of these three situations:</p>
+<ol type="A">
+<li>Sonya is a political activist and an accountant.</li>
+<li>Sonya is an accountant.</li>
+</ol>
+<table style="width:89%;">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Activist &amp; Accountant</th>
+<th style="text-align: center;">Accountant &amp; not Activist</th>
+<th style="text-align: center;">Not Accountant</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Credence in (Activist &amp; Accountant)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td>Credence in Accountant</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>…</p>
+<!-- Now, you might worry that it makes no sense to talk of the possible world at which Sonya is not an accountant, since there are at least two: one in which she is a political activist and the other in which she is not. Indeed, there are many worlds at which she is not an accountant: one in which she is not an accountant and Mozart was 5 ft 4 in; one in which she is not an accountant and Mozart was 5 ft 5 in; and so on. The point is that, at all these worlds, the ideal credence function over {A, B}—for us, the omniscient credence function—is the same. Thus, given an opinion set ℱ, we only consider the possible worlds relative to ℱ, each of which is represented by a consistent assignment of truth values to the propositions in ℱ. Call this set 𝒲ℱ. Thus, if ℱ = {A, B}, then 𝒲ℱ = {w1, w2, w3}. 𝒲ℱ is the set of possibilities grained as finely as the propositions in ℱ allow. Equivalently, 𝒲ℱ is the set of possibilities grained as finely as is required to determine the truth values of all propositions in ℱ. -->
+<p>I claim that the accuracy of a credence function at a possible world is given by its proximity to the ideal credence function at that world.</p>
+<div class="notes">
+<p>This is another way of saying the same thing we said earlier in the class. The <em>ideal</em> credence that it’s raining, if it’s raining, is 1. Your degree of confidence that it’s raining is <em>more accurate</em>, the <em>closer</em> it is to 1. Similarly, if it’s not raining, then the <em>ideal credence</em> to have in Rain would be 0. In that case your degree of confidence is more accurate the closer it is to 0.</p>
+<p>But Pettigrew is generalizing. We’re not just considering the accuracy of your degrees of confidence one at a time. He is talking about the accuracy of <em>all</em> of your degrees of confidence at once (your whole <em>credence function</em>). And he is saying that your degrees of confidence are <em>holistically</em> more accurate if they are close to the ideal degrees of confidence.</p>
+<p>We know what it means for one number to be close to another number. But now we need a way to talk about how close a whole credence <em>function</em> is to another function, in order to holistically evaluate the accuracy of your degrees of confidence.</p>
+</div>
+<p>For each possible world, we have seen which credence function is ideal at that world—it is the omniscient credence function at that world. Now we need to say how we measure the distance from one credence function to another: in particular, the distance from an ideal credence function to another credence function. In fact, this is the topic of Chapters 3 and 4 below. There we will present a set of properties that such a measure of distance must have; and we will characterize the set of those distance measures that have those properties. It will turn out that almost every argument in this book goes through no matter which of those measures we use. But here we will simply describe the most popular of these distance measures; and we will see how, on that measure, there is a credence function that is closer to the ideal credence function than Yasho’s credence function is, regardless of which possible world we are in.</p>
+<p>The distance measure we describe here is known as the <em>squared Euclidean distance</em>.</p>
+<div class="notes">
+<p>Pettigrew gives a mathematical formula for this distance measure. But we can describe it more intuitively.</p>
+<p>In our simple example, we’re only paying attention to your degrees of confidence in two propositions, <span class="math inline"><em>A</em></span> and <span class="math inline"><em>B</em></span>. So we can think of your degrees of confidence all together as represented by a point in 2D space. If your degree of confidence in <span class="math inline"><em>A</em></span> is <span class="math inline">0.6</span>, and your degree of confidence in <span class="math inline"><em>B</em></span> is <span class="math inline">0.4</span>, then your degrees of confidence are represented by the point with coordinates <span class="math inline">(0.6,0.4)</span>. Different credence functions correspond to different points within the unit square. (See Figure 1 below.)</p>
+<p>(In general, we can think of your degrees of confidence as represented by an <span class="math inline"><em>n</em></span>-dimensional <em>vector</em>, where <span class="math inline"><em>n</em></span> is the number of propositions you have credences in.)</p>
+<p>Then we can think about the distance between two credence functions as being the ordinary geometric notion of distance between two points—except that we will <em>square</em> the distance. (This is for technical reasons that we won’t worry about here, and which don’t really matter for this argument.)</p>
+<p>If we are really in a world where Sonya is an accountant but not an activist, the ideal credence function is <span class="math inline">(0,1)</span>. Then the <em>accuracy</em> of <span class="math inline">(0.6,0.4)</span> is the squared distance from <span class="math inline">(0.6,0.4)</span> to <span class="math inline">(0,1)</span>. Using the Pythagorean theorem, this is <span class="math display">(0.6−0)<sup>2</sup> + (1−0.4)<sup>2</sup> = 0.72</span></p>
+</div>
+<p>Suppose <span class="math inline"><em>ℱ</em></span> is a set of propositions. And suppose that <span class="math inline"><em>c</em></span> and <span class="math inline"><em>c</em>′</span> are two credence functions defined on <span class="math inline"><em>ℱ</em></span>: that is, <span class="math inline"><em>c</em>, <em>c</em>′ : <em>ℱ</em> → [0,1]</span>. (So <span class="math inline"><em>ℱ</em></span> is the opinion set of <span class="math inline"><em>c</em></span> and <span class="math inline"><em>c</em>′</span>.) Then we say that the <em>squared Euclidean distance</em> from <span class="math inline"><em>c</em></span> to <span class="math inline"><em>c</em>′</span> is <span class="math display"><em>d</em><sup>2</sup>(<em>c</em>,<em>c</em>′) = ∑<sub><em>X</em> ∈ <em>ℱ</em></sub>|<em>c</em>(<em>X</em>)−<em>c</em>′(<em>X</em>)|<sup>2</sup></span> That is, <span class="math inline"><em>d</em><sup>2</sup>(<em>c</em>,<em>c</em>′)</span> is obtained by taking each proposition on which <span class="math inline"><em>c</em></span> and <span class="math inline"><em>c</em>′</span> are defined, taking the difference between the credences they each assign to this proposition, squaring this difference, and summing together the results.</p>
+<div class="notes">
+<p>Don’t worry about the formula, if you don’t know what that notation means. This is just generalizing what we said before. The squared distance between two points in the plane is given by adding up the square of the difference in their x-coordinates and the square of the difference in their y-coordinates. More generally, in <span class="math inline"><em>n</em></span> dimensions, you add up the squares of the differences of <em>every</em> coordinate. Each coordinate corresponds to a different proposition.</p>
+</div>
+<p>Let’s see an example. Suppose <span class="math inline"><em>ℱ</em> = {<em>A</em>, <em>B</em>}</span>. Let <span class="math inline"><em>c</em>(<em>A</em>) = 0.7</span> and <span class="math inline"><em>c</em>(<em>B</em>) = 0.5</span>. Then the squared Euclidean distance from <span class="math inline"><em>v</em><sub><em>w</em><sub>1</sub></sub></span> to <span class="math inline"><em>c</em></span> is as follows: <span class="math display"><em>d</em><sup>2</sup>(<em>v</em><sub><em>w</em><sub>1</sub></sub>,<em>c</em>) = |<em>v</em><sub><em>w</em><sub>1</sub></sub>(<em>A</em>)−<em>c</em>(<em>A</em>)|<sup>2</sup> + |<em>v</em><sub><em>w</em><sub>1</sub></sub>(<em>B</em>)−<em>c</em>(<em>B</em>)|<sup>2</sup> = |1−0.7|<sup>2</sup> + |1−0.5|<sup>2</sup> = 0.34</span></p>
+<p>We now have all the ingredients we need to give our argument that Yasho is irrational. The argument is based on the following mathematical theorem, which is a particular case of a vastly more general theorem proved by Bruno de Finetti (de Finetti, 1974, 87–91); we will meet an even more general version in Chapter 4 (Theorem 4.3.4).</p>
+<dl>
+<dt>Theorem 0.0.1</dt>
+<dd>Suppose <span class="math inline"><em>ℱ</em> = {<em>A</em>, <em>B</em>}</span> and suppose <span class="math inline"><em>A</em></span> entails <span class="math inline"><em>B</em></span>. Suppose <span class="math inline"><em>c</em></span> is a credence function on <span class="math inline"><em>ℱ</em></span> that violates No Drop. Then there is a credence function <span class="math inline"><em>c</em><sup>*</sup></span> on <span class="math inline"><em>ℱ</em></span> that satisfies No Drop such that, for <span class="math inline"><em>i</em> = 1, 2, 3</span>, <span class="math display"><em>d</em><sup>2</sup>(<em>v</em><sub><em>w</em><sub><em>i</em></sub></sub>,<em>c</em><sup>*</sup>) &lt; <em>d</em><sup>2</sup>(<em>v</em><sub><em>w</em><sub><em>i</em></sub></sub>,<em>c</em>)</span>
+</dd>
+</dl>
+<p>Thus, if, like Yasho, you disobey the law of credence No Drop—that is, if you assign to <span class="math inline"><em>A</em></span> greater credence than you assign to <span class="math inline"><em>B</em></span>—there will be an alternative credence function that satisfies No Drop—that is, a credence function that assigns to <span class="math inline"><em>A</em></span> at most the credence it assigns to <span class="math inline"><em>B</em></span>—which is closer to the omniscient credence function of any possible world than your credence function is. In this situation, we say that Yasho’s credence function is <em>accuracy dominated</em> by the alternative credence function (relative to this way of measuring accuracy). Theorem 0.0.1 is illustrated by Figure 1.</p>
+<figure>
+<img src="./accuracy-figure.gif" alt="We represent a credence function c as the point (c(A), c(B)) in the unit square. The shaded triangle represents the set of credence functions that satisfy No Drop. In this figure, c is a credence function that violates No Drop. c^* is the nearest point to c that lies within the shaded triangle, when distance is measured by squared Euclidean distance. (Note: the nearest point to c in the shaded triangle when distance is measured by squared Euclidean distance is also the nearest point to c in the shaded triangle when distance is measured just by standard Euclidean distance, which is the measure of physical distance between the points in the figure. This is because squared Euclidean distance is simply a strictly increasing function of standard Euclidean distance.) Thus, c^* satisfies No Drop. Moreover, as the dashed lines show, c^* is closer to each v_{w_i} than c is. It is clear that there will be such a credence function for any other credence function that violates No Drop." /><figcaption aria-hidden="true">We represent a credence function <span class="math inline"><em>c</em></span> as the point <span class="math inline">(<em>c</em>(<em>A</em>),<em>c</em>(<em>B</em>))</span> in the unit square. The shaded triangle represents the set of credence functions that satisfy No Drop. In this figure, <span class="math inline"><em>c</em></span> is a credence function that violates No Drop. <span class="math inline"><em>c</em><sup>*</sup></span> is the nearest point to <span class="math inline"><em>c</em></span> that lies within the shaded triangle, when distance is measured by squared Euclidean distance. (Note: the nearest point to <span class="math inline"><em>c</em></span> in the shaded triangle when distance is measured by squared Euclidean distance is also the nearest point to <span class="math inline"><em>c</em></span> in the shaded triangle when distance is measured just by standard Euclidean distance, which is the measure of physical distance between the points in the figure. This is because squared Euclidean distance is simply a strictly increasing function of standard Euclidean distance.) Thus, <span class="math inline"><em>c</em><sup>*</sup></span> satisfies No Drop. Moreover, as the dashed lines show, <span class="math inline"><em>c</em><sup>*</sup></span> is closer to each <span class="math inline"><em>v</em><sub><em>w</em><sub><em>i</em></sub></sub></span> than <span class="math inline"><em>c</em></span> is. It is clear that there will be such a credence function for any other credence function that violates No Drop.</figcaption>
+</figure>
+<p>By now, we have gone a long way towards filling out the argument for Yasho’s irrationality sketched above: Yasho is irrational because there is a credence function that is more accurate than his regardless of how the world turns out to be; if he were to adopt that credence function instead of his own, he would be guaranteed to be closer to the credence function that assigns maximal credence to truths and minimal credence to falsehoods. However, there are some aspects of the argument to which we should give further attention here. Other aspects of the argument will be discussed in a great deal more detail when we come to generalize and strengthen it in Part I.</p>
+<p>The first is this. I take it to be uncontroversial that having accurate credences is a good thing; accuracy is an epistemic virtue of a doxastic state; other things being equal, it is better to have a more accurate credence function than a less accurate one.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> We have seen that there is a credence function that is guaranteed to be more accurate than Yasho’s. And we have inferred from this that Yasho is irrational. But the uncontroversial claim that accuracy is an epistemic virtue is not sufficient to license this move. If we knew that other things were equal between Yasho’s credence function and this alternative, then we could infer that the alternative is guaranteed to be epistemically better than Yasho’s, and we could infer from this that Yasho is irrational. But we don’t have such a reassurance. How, then, are we to make the argument valid?</p>
+<p>There are a number of options, but I will take the following route: I will argue that, in fact, accuracy is the only epistemic virtue. Or, more precisely, I will argue that it is the only fundamental epistemic virtue: all other epistemic virtues derive their goodness from their ability to promote accuracy. Thus, since the alternative credence function is guaranteed to be more accurate than Yasho’s, it is guaranteed to have the sole fundamental epistemic virtue to a greater extent than Yasho’s. And this is sufficient to show that Yasho is irrational. Alvin Goldman has defended an analogous thesis with respect to full beliefs. He calls it <em>veritism</em> (Goldman, 2002, 52). I will follow his lead.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>How will I argue for veritism? In fact, the whole book can be read as a sustained attempt to establish that claim. Veritism says that all epistemic virtues depend ultimately on accuracy. Thus, in order to establish it, we must consider each putative epistemic virtue in turn and show either that it is spurious or that it depends ultimately on accuracy. In this book, I will be concerned particularly with evidential virtues: these are the virtues that a credence function possesses if it is an appropriate response to the agent’s evidence. These are the virtues that are most obviously epistemic, yet least (p.7) obviously reducible to the virtue of accuracy. The arguments in Parts II, III, and IV go some way to effecting that reduction.</p>
+<p>…</p>
+<!-- So much for the first aspect of the proposed argument for No Drop. Let us turn now to the second. It is best introduced by considering the following objection to the above argument that Yasho is irrational. The objector grants the claim that there is a credence function that is more accurate than Yasho’s at every world; she agrees, moreover, that accuracy is the only fundamental epistemic virtue—it is the sole fundamental source of epistemic value. Thus, she agrees that, if Yasho were to have the alternative credence function instead of his own, he would be sure to be better than he currently is, epistemically speaking. But, she objects, it does not follow that he is irrational in virtue of having the credence function he has. After all, your credence function is not something over which you have control. You do not pick your doxastic state; and, while you can, as Pascal recommends, immerse yourself in a particular lifestyle in the hope that it will change your doxastic state, you are not able to change it quickly and by a mere act of will. Thus, while there is a credence function that is guaranteed to be better than Yasho’s, he cannot be blamed for retaining his, and we cannot say that he ought not to have it—he cannot do otherwise. Thus, he is not irrational.
+
+I agree that Yasho cannot choose to change his credal state. And I agree that we cannot blame him for the credal state we have, nor say that he ought to have something else. But I do not agree that it follows that he is not irrational. Saying that Yasho is irrational is an evaluative claim; saying that he is blameworthy or that his credal state ought to be other than it is is a normative claim. Evaluative claims concerning a particular state or action of an agent do not entail normative claims unless that state or action is within the agent’s control. Thus, our lack of control over our credal states does not render them immune to evaluation as rational or irrational. I will talk of general normative claims as norms, and general evaluative claims—such as putative necessary conditions on rationality—as laws or principles. Throughout this book, we will be concerned with laws and principles of rationality for credences.
+
+So the claim that a particular credence function is irrational is an evaluative claim, not a normative one. And in order to establish it, it suffices to show that there is an alternative credence function that is guaranteed to be more accurate, since accuracy is the sole fundamental source of epistemic value for credences. The third issue to raise concerning the argument for No Drop we have been sketching in this Introduction is that it relies on a very demanding notion of rationality; and other arguments in the book will rely on no less demanding a notion. For some philosophers, rationality requires of an agent only that she doesn’t perform too badly with respect to the task on which she is being evaluated. This is a satisficing notion of rationality. It is not the notion in play here. Here, and indeed according to the theory of practical action codified in orthodox decision theory, rationality is harder to attain. Perhaps there are limitations on our cognitive capacities that render it impossible for us to attain it, just as they might prevent us from attaining the demanding standard of rationality in the (p.8) case of our practical actions. But that just means that we are not to be blamed if we fail to live up to this standard; it does not mean that the standard itself should be weakened. Rational cognition is the ideal at which we aim; it is what we strive for in our epistemic life, just as rational action of the same demanding sort—and as codified in orthodox decision theory—is the ideal at which we aim in our practical life.6
+ -->
+<p>Let us now return to the argument for No Drop sketched above. It has four premises. They are:</p>
+<ol type="I">
+<li>A claim about the ultimate source of epistemic value.</li>
+</ol>
+<dl>
+<dt>Veritism</dt>
+<dd>The ultimate source of epistemic value is accuracy.
+</dd>
+</dl>
+<ol start="2" type="I">
+<li>A mathematically precise way of measuring the accuracy (and thus, by (I), the epistemic value) of a credence function in a given situation. This in turn breaks down into three claims:</li>
+</ol>
+<ol type="a">
+<li><p><strong>Alethic Vindication</strong> The ideal credence function at world <span class="math inline"><em>w</em></span> is the omniscient credence function at <span class="math inline"><em>w</em></span>, namely, <span class="math inline"><em>v</em><sub><em>w</em></sub></span>.</p></li>
+<li><p><strong>Perfectionism</strong> The accuracy of a credence function at a world is its proximity to the ideal credence function at that world.</p></li>
+<li><p><strong>Squared Euclidean Distance</strong> Distance between credence functions is measured by squared Euclidean distance.</p></li>
+</ol>
+<p>Putting these together, we have:</p>
+<dl>
+<dt>Brier Alethic Accuracy</dt>
+<dd>The inaccuracy of credence function <span class="math inline"><em>c</em></span> at world <span class="math inline"><em>w</em></span> is <span class="math display"><em>𝔅</em>(<em>c</em>,<em>w</em>) :  = <em>d</em><sup>2</sup>(<em>v</em><em>w</em>,<em>c</em>).</span> (This is sometimes called the <em>Brier score</em> of <span class="math inline"><em>c</em></span> at <span class="math inline"><em>w</em></span>. It is named for the meteorologist Glenn W. Brier, who proposed it as a way of scoring weather forecasts in Brier (1950)). Thus, the accuracy of <span class="math inline"><em>c</em></span> at <span class="math inline"><em>w</em></span> is <span class="math inline"> − <em>𝔅</em>(<em>c</em>,<em>w</em>)</span>.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>
+</dd>
+</dl>
+<ol start="3" type="I">
+<li>A claim connecting epistemic value and irrationality: If there is a credence function <span class="math inline"><em>c</em><sup>*</sup></span> that accuracy dominates <span class="math inline"><em>c</em></span>, then <span class="math inline"><em>c</em></span> is irrational. In fact, this is a particular version of a very general law of decision theory or rational choice theory. …</li>
+</ol>
+<!-- 
+To state this general law of decision theory, we must set up the framework a little. Let 𝒪 be the set of options—in a standard case of decision making, these will be the acts between which the agent will choose; for us, they won’t be acts between which the agent will choose, but rather the possible credence functions an agent might have. Let 𝒲 be the set of possible worlds. And let 𝔘 be a utility function. That is, 𝔘 takes an option (p.9) o from 𝒪 and a world w from 𝒲 and returns a real number 𝔘(o, w) that measures the value of option o at world w, to wit, the utility of o at w. With this in hand, we can introduce some terminology. Suppose o and o* are options in 𝒪. Then:
+• o* strongly 𝔘-dominates o if 𝔘(o*, w) > 𝔘(o, w) for all worlds w in 𝒲.
+• o* weakly 𝔘-dominates o if
+(i) 𝔘(o*, w) ≥ 𝔘(o, w) for all worlds w in 𝒲, and
+(ii) 𝔘(o*, w) > 𝔘(o, w) for some world w in 𝒲.
+Dominance If
+(i) o is strongly 𝔘-dominated
+then
+(ii) o is irrational for any agent with utility function 𝔘. -->
+<ol start="4" type="I">
+<li>A mathematical theorem connecting (I), (II), (III), and No Drop.</li>
+</ol>
+<p><strong>Theorem 0.0.1.</strong></p>
+<p>Therefore,</p>
+<ol start="22" type="A">
+<li>No Drop.</li>
+</ol>
+<p>The argument is valid: By (I), the accuracy measure given in (II) is also the measure of epistemic utility; by (IV), if we take credence functions to be options and the Brier score to measure the utility of those options, then any credence function that violates No Drop satisfies the antecedent of the decision-theoretic law in (III); thus, any such credence function is irrational. <!-- 
+Each of the arguments for major principles of rationality in this book has this form. In Part I, we adapt it to give an argument for Probabilism. We begin, in Chapter 1, where we retain (IND), (IIND), and (IIIND), and appeal to a generalized version of Theorem 0.0.1 to derive perhaps the most fundamental principle of rationality for credences, namely, Probabilism. This is akin to the putative principle of rationality for full beliefs that requires that an agent’s beliefs be logically consistent. Thus, Probabilism is a coherence requirement. It says how a credence in a proposition should relate to credences in other, logically related propositions. It requires that an agent’s credences obey the axioms of the probability calculus. When they do, we say that they are probabilistic.
+
+In Chapter 2, we strengthen the argument for Probabilism by weakening (IIIND). Finally, in Chapters 3 and 4, we question (IIND)(c) and explore alternative measures of distance between credence functions. This leads us to strengthen the argument for No Drop by providing an argument for (IIND)(c): we lay down properties that any measure of inaccuracy ought to possess, and we show that the only measure that has all of these properties is the Brier score introduced above. We retain (IIND)(c) throughout the remainder of the book, though we note that nearly all of the arguments we give would go through just as well if any of a large class of alternative measures of inaccuracy were identified as the unique legitimate measure.
+
+(p.10) In Parts II and III, we return to the application of the argument strategy one instance of which we deploy to establish Probabilism in Part I. In Part II, we argue for versions of the Principal Principle. This is a chance-credence principle: that is, it says how credences in propositions that concern objective chances should relate to credences in other propositions. It is in this part of the book that we see why Cleo—the second of our irrational quartet described at the beginning of this introduction—is irrational. She disobeys the Principal Principle (in any of its guises).
+
+In Part III, we argue for the Principle of Indifference, which says how an agent’s credences should be distributed over a range of possibilities when she has no evidence. Here we see why Kazuo is irrational. He disobeys the Principle of Indifference.
+
+The argument for the Principal Principle and the argument for the Principle of Indifference share premises (IND) and (IIND) with the argument for Probabilism. They differ in premise (IIIND) (and in the mathematical theorem that comprises (IVND)). Thus, we establish the Principal Principle and the Principle of Indifference by exploring the consequences of the account of epistemic utility given by veritism in the presence of different decision-theoretic laws.
+
+In Part IV, we turn our attention to how an agent should plan to update her credences upon receipt of new evidence. We adapt the argument strategy above to give a suite of arguments for Plan Conditionalization, which is the law of rational credence that Saskia violates—it describes the rational way to plan to update credences. Again, it is the decision-theoretic law that comprises (IIIND) that is changed (as well as the theorem that comprises (IVND)). If successful, many of these arguments also establish van Fraassen’s Reflection Principle, which says how credences in propositions about the agent’s future credences should relate to her credences in other propositions.
+
+Thus, this book explores the consequences of a particular way of establishing the laws of credence: we apply decision-theoretic laws in the setting in which the options to be evaluated are credence functions; embracing veritism, we take the epistemic utility of a credence function to be given by its accuracy, which we measure in a particular way; and we derive the consequences. Part of our motivation is, in fact, to establish veritism, a central premise in each of our arguments. The central objection to veritism is that it cannot account for certain evidential principles. One theme in this book is that, in fact, it can.
+
+There is a sense in which this book proposes a justification for veritism that is analogous to a certain sort of justification that might be given for hedonistic utilitarianism in ethics. According to veritism, there is a single fundamental source of value that is relevant to the epistemic evaluation of credences—it is accuracy. According to hedonistic utilitarianism, there is a single fundamental source of value that is relevant to the moral evaluation of actions—it is pleasure. Just as the veritist must show that certain evidential principles follow from her value monism in epistemology, so the utilitarian must show that certain principles concerning rights and duties follow from her value monism in ethics.
+
+(p.11) This analogy also helps us to situate veritism and the accuracy-based epistemology that this book explores within the wider context of epistemology. For instance, it is clear from the analogy that veritism is a teleological position in epistemology, just as utilitarianism is in ethics. That is, facts about the epistemically right—most often called the epistemically rational—are determined by facts about the epistemically relevant notion of the good. This is in contrast with deontological theories—according to which epistemic rationality is determined by facts about epistemic duties and obligations—and virtue epistemologies—according to which facts about epistemic rationality are determined by facts about epistemically virtuous agents.8
+
+Also, just as utilitarianism is perhaps the most minimal teleological position in ethics, taking only a single feature of actions—namely, the total aggregate pleasure they promote—to constitute the relevant sort of good for moral evaluation, so veritism is perhaps the most minimal version of epistemic consequentialism, taking only accuracy to constitute the relevant sort of good for the epistemic evaluation of credences. Thus, veritism sides with David (2001) against those who propose knowledge (Williamson, 2001), justification (Adler, 2002), or understanding (Kvanvig, 2003) as further or alternative sources of value relevant for epistemic evaluation. Note, however, that each of the accounts of value just listed is concerned with the value of full beliefs, rather than the value of credences, which is our concern here.
+
+In utilitarianism, the loci of evaluation are our actions. In veritism—at least credal veritism, which is the brand of veritism defended here—the loci of evaluation are our credal states. I make no claim that other doxastic states—full beliefs, imprecise credences, etc.—should be evaluated by the lights of veritism. And I make no claim that other subjects of epistemic evaluation—belief-forming processes, rules of inference, collective doxastic states of groups, institutions—should be evaluated in that way. So note that veritism is quite distinct from, though naturally related to, reliabilism in epistemology. Reliabilism takes accuracy to be the sole fundamental source of epistemic value for full beliefs, but then uses that to establish rationality requirements primarily for belief-forming processes and only secondarily for full beliefs themselves.
+
+It may also help to contrast the project pursued here with the standard way in which credal principles, such as Probabilism and Plan Conditionalization, are justified. Standard justifications for these principles appeal to so-called Dutch book arguments. These arguments begin with the claim that an agent’s credences will lead her to consider certain actions permissible. In particular, they claim that a credence of x in proposition X leads the agent to consider it permissible to buy or sell at a price of £x a bet that pays £1 if X is true and £0 if X is false. The Dutch book argument for Probabilism, for instance, then proceeds to show that, if an agent has a credence (p.12) function that violates Probabilism, there is a series of such bets each of which she will consider permissible, but which will lead to a sure loss when taken together—such a series of bets is called a Dutch book, which gives the argument its name. How does this relate to the accuracy-based argument proposed here? It seems to me that they are complementary. Credences play at least two roles in our lives. They encode our representation of the world—call this their epistemic role. And they guide our actions—call this their pragmatic role. Accuracy-based arguments of the sort described in this book are concerned with the epistemic role; Dutch book arguments are concerned with the pragmatic role. Dutch book arguments establish a principle of rationality for credences by showing that any credence function that violates it will lead an agent to consider it permissible to enter into a series of bets that constitutes a Dutch book. Thus, they show that the credences assigned by any such credence function play the pragmatic role of credences suboptimally. On the other hand, accuracy-based arguments show that any credence function that violates the principle of rationality in question plays the epistemic role suboptimally—the credences assigned by that credence function represent the world less well than they might. Thus, just as the title of Joyce’s original paper suggests—‘A Non-Pragmatic Vindication of Probabilism’— accuracy-based arguments provide non-pragmatic vindications of principles of rationality while Dutch book arguments provide pragmatic ones.
+
+Hopefully this situates our project within epistemology. Let us now embark on it.
+ --></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>I will talk of degrees of belief and credences interchangeably.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>We return to the implications of this choice of convention in Chapter 6.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>This account of accuracy (or epistemic utility) for full beliefs is explored in (Hempel, 1962), (Levi, 1967), (Maher, 1993), (Easwaran, to appear), (Fitelson, ms, Part I).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Though see Conee &amp; Feldman (2004) for a dissenting view.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>In the literature on full belief, this position has also been called epistemic value monism (Zagzebski, 2004) and epistemic value T-monism (Pritchard, 2011), amongst other names.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Throughout this book, we will switch back and forth between stating our claims in terms of accuracy and in terms of inaccuracy. The inaccuracy of a credence function at a world is just the negative of its accuracy, and vice versa. Thus, any claim stated in terms of accuracy can easily be translated into a claim about inaccuracy, and vice versa.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
