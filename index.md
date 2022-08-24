@@ -11,7 +11,7 @@ I’m also interested in the philosophy of science, mathematics,
 and religion.
 
 # cv
-[Here's my cv](cv.pdf)
+[Here's my CV](cv.pdf)
 
 # publications
 [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
