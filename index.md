@@ -64,7 +64,7 @@ I also teach graduate seminars and undergraduate classes in metaphysics, epistem
 
 # placement
 
-I am currently the chair of USC's job placement committee (after many years of incredible work by Mark Schroeder). USC has a [strong track record](https://dornsife.usc.edu/phil/placement-record/) of helping our PhD students find jobs. Here are a few things that may be useful.
+I am currently the chair of our department's job placement committee (after many years of incredible work by Mark Schroeder). USC Philosophy has a [strong track record](https://dornsife.usc.edu/phil/placement-record/) of helping our PhD students find jobs. Here are a few things that may be useful.
 
 -   [General information about USC's job placement process](placement/placement-notes-2022.pdf)
 -   [Advice for job market materials](placement/placement-advice.pdf)
