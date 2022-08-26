@@ -534,6 +534,14 @@ h2 {
   text-indent: 0;
 }
 
+/*------ placement ----- */
+
+#placement ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /*------ teaching ----- */
 

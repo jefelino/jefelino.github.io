@@ -62,6 +62,20 @@ I also teach graduate seminars and undergraduate classes in metaphysics, epistem
 -   [Seminar on the Epistemology and Metaphysics of Time and Space (Fall 2014)](courses/me.2014.syllabus.pdf)
 -   [Frege's *Foundations of Arithmetic* (Trinity 2014)](courses/frege.2014.syllabus.pdf)
 
+# placement
+
+I am currently the chair of USC's job placement committee (after many years of incredible work by Mark Schroeder). USC has a [strong track record](https://dornsife.usc.edu/phil/placement-record/) of helping our PhD students find jobs. Here are a few things that may be useful.
+
+-   [General information about USC's job placement process](placement/placement-notes-2022.pdf)
+-   [Advice for job market materials](placement/placement-advice.pdf)
+
+Here are some places philosophy jobs are posted. (If you know of other good places to look that aren't listed here, please let me know!)
+
+-   [PhilJobs](https://philjobs.org)
+-   [Academic Jobs Online](https://academicjobsonline.org/ajo)
+-   [The Chronicle of Higher Education Jobs](https://jobs.chronicle.com)
+
+
 # contact
 
 <jeff.russell@usc.edu>
