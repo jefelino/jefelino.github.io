@@ -2,7 +2,7 @@
 Jeffrey Sanford Russell
 
 # field
-Philosophy
+Professor of Philosophy
 
 # blurb
 I mainly work on logic, metaphysics, epistemology, decision theory, and ethics.
