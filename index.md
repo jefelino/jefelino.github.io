@@ -37,12 +37,13 @@ I've been working on a textbook for this class.
 
 I also teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, philosophy of religion, philosophy of language, and philosophy of math.
 
-## Fall 2022
+## Fall 2023
 
--   [The Limits of Logic](logic-450-2022.html)
+-   The Limits of Logic (link coming soon!)
 
 ## Past Courses
 
+-   [The Limits of Logic (PHIL 450, Fall 2022)](logic-450-2022.html)
 -   [Probability and Rational Choice (PHIL 258g, Fall 2021)](courses/probability-fall-2021.html)
 -   [The End of the World (GESM 120g, Spring 2021)](courses/gesm-spring-2021.html)
 -   [Probability and Rational Choice (PHIL 258g, Spring 2021)](courses/probability-spring-2021.html)
@@ -82,12 +83,11 @@ Here are some places philosophy jobs are posted. (If you know of other good plac
 
 [University of Southern California, School of Philosophy](http://dornsife.usc.edu/phil/)
 
-## Office Hours (Fall 2022)
+## Office Hours (Fall 2023)
 
-| Stonier Hall 227 [(map)](https://www.google.com/maps/place/Stonier+Hall,+Los+Angeles,+CA+90089/@34.0202565,-118.2890616,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2c7e346f6413d:0xa8985915b5308cc3)
-| Tuesday 2–3pm
-| Thursday 11am–12pm
-| Or by appointment
-
+| Mudd Hall of Philosophy 205E
+| Monday 3:30–4:30pm
+| Wednesday 3:30–4:15pm
+| or [by appointment](https://calendly.com/jeff-russell)
 
 
