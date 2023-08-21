@@ -1,4 +1,4 @@
-html = index.html logic-450-2022.html
+html = index.html logic-450-2022.html logic-450-2023.html
 
 all: $(html)
 

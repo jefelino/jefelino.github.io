@@ -33,13 +33,14 @@ the limits of what can be said, proven, calculated, or counted.
 We study deep human discoveries about the infinite and the indescribable. If you've taken intro logic (or suitable courses in math, computer science, or linguistics) and you're interested in taking 450, [contact me](#contact). (The official prerequisite can be waived.)
 
 I've been working on a textbook for this class.
-[Here's a draft.](https://www.dropbox.com/s/5vj31iuo149plh5/limits.of.logic.pdf?dl=0)
+[Here's a draft.](limits-of-logic.pdf)
 
 I also teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, philosophy of religion, philosophy of language, and philosophy of math.
 
 ## Fall 2023
 
--   The Limits of Logic (link coming soon!)
+-   [The Limits of Logic (PHIL 450)](logic-450-2023.html)
+-   Dissertation Seminar (PHIL 700)
 
 ## Past Courses
 
