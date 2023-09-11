@@ -6,9 +6,9 @@ Professor of Philosophy
 
 # blurb
 
-I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics and logic, and nowadays I do a lot of work in formal epistemology, decision theory, and ethics. I'm also very interested in philosophy of science, philosophy of mathematics, and philosophy of religion.
+I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics, logic, and philosophy of science. Nowadays I do a lot of work in formal epistemology, decision theory, and ethics. I'm also very interested in philosophy of mathematics and philosophy of religion.
 
-I am also the Director of Graduate Studies for the USC School of Philosophy.
+I am the Director of Graduate Studies for the USC School of Philosophy.
 
 *   [Here's my CV](cv.pdf)
 *   [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
