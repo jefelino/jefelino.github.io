@@ -439,23 +439,6 @@ h3.profile-title {
   z-index: 3;
 }
 
-.welcome-text {
-  position: relative;
-  max-width: 40em;
-  z-index: 4;
-}
-.welcome-text h2 {
-  font-size: 42px;
-  font-family: 'robotobold';
-  color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.welcome-text p {
-  font-size: 22px;
-  color: white;
-  margin-bottom: 15px;
-}
 
 h2 {
   margin-top: 25px;
@@ -533,9 +516,9 @@ h2 {
   text-indent: 0;
 }*/
 
-/* welcome text */
+/* about me */
 
-#welcome-text ul {
+#about-me ul {
   list-style-type: disc;
   padding-left: 20px;
   margin-top: 20px;
