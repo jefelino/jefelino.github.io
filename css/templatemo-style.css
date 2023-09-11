@@ -533,6 +533,15 @@ h2 {
   text-indent: 0;
 }*/
 
+/* welcome text */
+
+#welcome-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /*------ placement ----- */
 
 #placement ul {

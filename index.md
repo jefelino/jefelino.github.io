@@ -5,24 +5,13 @@ Jeffrey Sanford Russell
 Professor of Philosophy
 
 # blurb
-I mainly work on logic, metaphysics, epistemology, decision theory, and ethics.
 
-I’m also interested in the philosophy of science, mathematics,
-and religion.
+I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics and logic, and nowadays I do a lot of work in formal epistemology, decision theory, and ethics. I'm also very interested in philosophy of science, philosophy of mathematics, and philosophy of religion.
 
-# cv
-[Here's my CV](cv.pdf)
+I am also the Director of Graduate Studies for the USC School of Philosophy.
 
-# publications
-[Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
-
-# research
-
-[Publications on PhilPeople](https://philpeople.org/profiles/jeffrey-sanford-russell).
-
-I work on a lot of different topics, including the limits of what is possible, the structure of space and time, parts and wholes, things and their properties, evidence, belief, and action. I am currently working on issues in decision theory and ethics involving large and infinite numbers, as well as normative uncertainty.
-Much of my work applies technical tools to traditional philosophical questions.
-
+*   [Here's my CV](cv.pdf)
+*   [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
 
 # teaching
 
