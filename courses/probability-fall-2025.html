@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jeff Sanford Russell (jeff.russell@usc.edu)" />
+  <meta name="author" content="June Lee (jlee6001@usc.edu)" />
+  <meta name="author" content="Yangming Qin (qinyangm@usc.edu)" />
+  <title>Probability and Rational Choice (PHIL 258, Fall 2025)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../css/syllabus.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title"><p>Probability and Rational Choice<br />
+(PHIL 258, Fall 2025)</p></h1>
+<p class="author">Jeff Sanford Russell (<a
+href="mailto:jeff.russell@usc.edu"
+class="email">jeff.russell@usc.edu</a>)</p>
+<p class="author">June Lee (<a href="mailto:jlee6001@usc.edu"
+class="email">jlee6001@usc.edu</a>)</p>
+<p class="author">Yangming Qin (<a href="mailto:qinyangm@usc.edu"
+class="email">qinyangm@usc.edu</a>)</p>
+<p class="date"><p>Course website: <a
+href="https://app.tophat.com/e/148715/"
+class="uri">https://app.tophat.com/e/148715/</a></p></p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#goals" id="toc-goals">Goals</a></li>
+<li><a href="#books" id="toc-books">Books</a></li>
+<li><a href="#top-hat" id="toc-top-hat">Top Hat</a></li>
+<li><a href="#meetings" id="toc-meetings">Meetings</a></li>
+<li><a href="#evaluation" id="toc-evaluation">Evaluation</a></li>
+<li><a href="#late-policies" id="toc-late-policies">Late
+Policies</a></li>
+<li><a href="#schedule" id="toc-schedule">Schedule</a></li>
+<li><a href="#equality" id="toc-equality">Equality</a></li>
+<li><a href="#academic-integrity" id="toc-academic-integrity">Academic
+Integrity</a></li>
+<li><a href="#ai-policy" id="toc-ai-policy">AI Policy</a></li>
+<li><a href="#support-systems" id="toc-support-systems">Support
+Systems</a></li>
+</ul>
+</nav>
+<p>This course is about how to live with uncertainty. How should our
+beliefs be shaped by evidence about the world? How should we make
+decisions when our actions have risky outcomes? How can we trust other
+people in shared projects?</p>
+<p>This course has five parts.</p>
+<ol type="1">
+<li><p><strong>Thinking Clearly.</strong> How is your mind vulnerable to
+biases that lead you away from the truth? What skills and habits will
+help you have beliefs that aim at what is true and make choices that aim
+at what is good? Why bother with tables and numbers when it comes to
+real life questions?</p></li>
+<li><p><strong>Responding to Evidence.</strong> How should you change
+your mind as you learn new things? How can you have coherent beliefs
+even when you aren’t sure what is true?</p></li>
+<li><p><strong>Choosing Well.</strong> What should you do when you don’t
+know how things will turn out?</p></li>
+<li><p><strong>Philosophical Foundations.</strong> What justification is
+there for the standard rules of decision theory (from part 3), and the
+standard rules for degrees of belief (from part 2)? Do the standard
+rules sometimes give the wrong answers?</p></li>
+<li><p><strong>Working Together.</strong> Why is it hard to solve social
+problems together? What factors make it easier or harder to
+cooperate?</p></li>
+</ol>
+<p>This is a philosophy class, but we will also use tools and ideas from
+psychology, math, and economics.</p>
+<p>This class fills a <strong>quantitative reasoning general education
+requirement (GE-F).</strong> In some ways it will be like a math class.
+It involves numbers and equations, and there will be problem sets. But
+our <em>main</em> emphasis won’t be on calculation, but rather on
+conceptual understanding. How can we use probabilities to understand an
+uncertain world? What do they mean?</p>
+<p>You will be evaluated not just on your ability to <strong>calculate
+correct answers,</strong> but also on your ability to <strong>think
+critically</strong> and <strong>write clearly.</strong></p>
+<p>This class does not assume you have any background in college-level
+math. But you will need to do some arithmetic. (For example, what is
+<span class="math inline">2/3</span> of <span
+class="math inline">3/5</span>? What is <span
+class="math inline">20%</span> of 80?) And you will need to do some
+algebra. (For example, solve the equation <span
+class="math inline">3<em>p</em> = <em>p</em> + 1</span> for <span
+class="math inline"><em>p</em></span>.) If you don’t remember how to do
+those things quickly and reliably, you will need to do some review to
+brush up. This might be a helpful resource:</p>
+<ul>
+<li><a href="https://www.khanacademy.org/math"
+class="uri">https://www.khanacademy.org/math</a></li>
+</ul>
+<p>This class does not assume you have any background in philosophy. But
+you will need to think carefully, and you will need to write clearly and
+directly.</p>
+<h1 id="goals">Goals</h1>
+<ul>
+<li><p>You will <strong>think carefully and critically</strong> about
+what you should believe and what you should do.</p></li>
+<li><p>You will understand how <strong>cognitive biases</strong> can
+lead your beliefs away from the truth, and the habits of mind that can
+help compensate for them.</p></li>
+<li><p>You will use <strong>probabilities</strong> to understand how
+beliefs fit together and are supported by evidence. You will use
+diagrams, numbers, and symbols to determine how strong evidence for a
+claim is, and when a theory is more likely to be true. You will identify
+mistakes and confusions in real-life reasoning with
+probabilities.</p></li>
+<li><p>You will represent <strong>choices</strong> using diagrams,
+numbers, and symbols. You will use these tools to precisely describe
+difficult decisions, and to work out how to balance risks.</p></li>
+<li><p>You will apply probability and decision theory to make progress
+on controversial <strong>philosophical questions.</strong></p></li>
+<li><p>You will <strong>precisely explain and evaluate philosophical
+arguments</strong> about what you should do and what you should believe.
+You will understand and explain the central mathematical ideas that
+these philosophical arguments rely on. You will clearly distinguish
+<em>descriptive</em> claims about what <em>will</em> happen from
+<em>normative</em> claims about what <em>should</em> happen.</p></li>
+<li><p>You will represent <strong>cooperation problems</strong> using
+diagrams, numbers, and symbols. You will use these tools to precisely
+describe social relationships and explain special problems facing group
+decision-making.</p></li>
+</ul>
+<h1 id="books">Books</h1>
+<p>We have two main textbooks for this class:</p>
+<ul>
+<li><em>Reason Better,</em> by David Manley and Anna Edmonds</li>
+<li><em>Odds and Ends,</em> by Jonathan Weisberg</li>
+</ul>
+<p><em>Reason Better</em> is only available through the <a
+href="#top-hat">Top Hat</a> platform, which is described below. <em>Odds
+and Ends</em> is available for free online, here:</p>
+<ul>
+<li><a href="https://jonathanweisberg.org/vip/"
+class="uri">https://jonathanweisberg.org/vip/</a></li>
+</ul>
+<p>We will also use some short selections from other books and articles,
+which I will distribute through the course Top Hat site.</p>
+<h1 id="top-hat">Top Hat</h1>
+<p>We will be using Top Hat (<a href="https://tophat.com"
+class="uri">https://tophat.com</a>) for class participation. Top Hat is
+an educational platform that integrates interactive features into
+learning materials, enhancing class engagement and comprehension.</p>
+<p>(This will cost you some money — sorry! — but it’s less than the
+price of the hard copy textbooks I used to use for this course, for
+whatever that’s worth.)</p>
+<p>For instructions on how to download the Top Hat app, please refer to
+our Student’s Getting Started Guide online.</p>
+<h2 id="creating-your-top-hat-account-logging-in">Creating your Top Hat
+Account / Logging In</h2>
+<p>If you already have a Top Hat account, go to <a
+href="https://app.tophat.com/e/148715/"
+class="uri">https://app.tophat.com/e/148715/</a> to be taken directly to
+our course. If you are new to Top Hat, follow the link in the email
+invitation you received or…</p>
+<ul>
+<li>Go to <a href="https://app.tophat.com/register/student"
+class="uri">https://app.tophat.com/register/student</a></li>
+<li>Click “Search by the school” and input the name of our school</li>
+<li>Search for our course with the following Join Code:
+<strong>148715</strong></li>
+</ul>
+<p><strong>Important!</strong> You cannot create a Top Hat account using
+the mobile application. Please first sign-up (using your USC email
+address) and enroll into your course using a web browser.</p>
+<p><strong>For support,</strong> visit <a
+href="https://support.tophat.com/s/">Top Hat Support</a> or use the
+contact form <a
+href="https://success.tophat.com/s/contact-main">here</a>.</p>
+<h1 id="meetings">Meetings</h1>
+<table>
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 15%" />
+<col style="width: 23%" />
+<col style="width: 28%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">Lecture</td>
+<td style="text-align: right;">Mon, Wed</td>
+<td style="text-align: left;">8:30–9:50am</td>
+<td style="text-align: left;">SOS B2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Discussion Section</td>
+<td style="text-align: right;">Tue</td>
+<td style="text-align: left;">8-8:50am</td>
+<td style="text-align: left;">DMC 161</td>
+</tr>
+<tr>
+<td style="text-align: left;">Discussion Section</td>
+<td style="text-align: right;">Tue</td>
+<td style="text-align: left;">11–11:50am</td>
+<td style="text-align: left;">THH 110</td>
+</tr>
+<tr>
+<td style="text-align: left;">Discussion Section</td>
+<td style="text-align: right;">Thu</td>
+<td style="text-align: left;">8–8:50am</td>
+<td style="text-align: left;">DMC 161</td>
+</tr>
+<tr>
+<td style="text-align: left;">Discussion Section</td>
+<td style="text-align: right;">Thu</td>
+<td style="text-align: left;">11–11:50am</td>
+<td style="text-align: left;">DMC 203</td>
+</tr>
+<tr>
+<td style="text-align: left;">Jeff’s Office Hours</td>
+<td style="text-align: right;">Wed</td>
+<td style="text-align: left;">10–11am or by appointment</td>
+<td style="text-align: left;">MHP 205E (up the stairs near the
+philosophy office)</td>
+</tr>
+<tr>
+<td style="text-align: left;">June’s Office Hours</td>
+<td style="text-align: right;">TBA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Yangming’s Office Hours</td>
+<td style="text-align: right;">Fri</td>
+<td style="text-align: left;">1–2pm</td>
+<td style="text-align: left;">MHP B5B</td>
+</tr>
+<tr>
+<td style="text-align: left;">Final Exam</td>
+<td style="text-align: right;">Wed, Dec 10</td>
+<td style="text-align: left;">8–10am</td>
+<td style="text-align: left;">SOS B2</td>
+</tr>
+</tbody>
+</table>
+<p>If you have class conflicts with our scheduled office hours, you can
+<a href="mailto:jeff.russell@usc.edu">email Jeff</a>, <a
+href="mailto:jlee6001@usc.edu">June</a>, or <a
+href="mailto:qinyangm@usc.edu">Yangming</a> to try to find another
+appointment time that works.</p>
+<h1 id="evaluation">Evaluation</h1>
+<p>See the <a href="">schedule</a> for dates and deadlines.</p>
+<table style="width:67%;">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 16%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong><a href="#reading-questions">Reading questions</a></strong>
+(Top Hat)</td>
+<td style="text-align: right;">10%</td>
+</tr>
+<tr>
+<td><strong><a href="#check-in-quizzes">Check-in quizzes</a></strong>
+(Top Hat)</td>
+<td style="text-align: right;">10%</td>
+</tr>
+<tr>
+<td><strong><a href="#discussion-activities">Discussion
+activities</a></strong></td>
+<td style="text-align: right;">10%</td>
+</tr>
+<tr>
+<td><strong><a href="#problem-sets">Problem sets</a></strong></td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td><strong><a href="#midterm">Midterm</a></strong></td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr>
+<td><strong><a href="#final-exam">Final exam</a></strong></td>
+<td style="text-align: right;">30%</td>
+</tr>
+</tbody>
+</table>
+<p>The grade break-down is structured to reward <strong>consistent
+work</strong> through the whole semester. No one component is worth a
+huge portion of your grade. Make sure to keep up with the reading
+questions, check-in quizzes, discussion activities, and problem sets. No
+single one of them is worth very much on its own, but all together they
+are worth 50% of your grade.</p>
+<p>The later parts of this class will build on the skills you develop
+early on, so if you don’t keep up with the work consistently week by
+week, you may find yourself lost later on.</p>
+<h2 id="reading-questions">Reading questions</h2>
+<h3 id="purpose">Purpose</h3>
+<ul>
+<li>To help you keep up with the reading</li>
+<li>To make sure that you are reading carefully enough to understand the
+important ideas</li>
+<li>To help us track what ideas the class finds easy or difficult</li>
+</ul>
+<p>Each section of the assigned reading on <a href="#top-hat">Top
+Hat</a> has a few review questions at the end. You should answer these
+when you do the reading <strong>before each class.</strong> But usually
+I will give you a grace period to answer reading questions (or change
+your answers) up to the end of the week. (These deadlines will be posted
+on <a href="#top-hat">Top Hat</a>.) In general, I will not give any
+extensions for reading questions beyond this grace period.</p>
+<p>Normally, half of the credit for a reading question will be based on
+answering the question at all, and the other half will be based on
+whether you get it right.</p>
+<h2 id="check-in-quizzes">Check-in quizzes</h2>
+<h3 id="purpose-1">Purpose</h3>
+<ul>
+<li>To help you keep up with core skills and central ideas all the way
+through the semester</li>
+<li>To help you get regular feedback about how well you are
+understanding ideas</li>
+<li>To help us get immediate feedback about how well we are
+communicating ideas</li>
+</ul>
+<p>We will use <a href="#top-hat">Top Hat</a> for frequent short
+in-class quizzes. Usually these quizzes will just be one or two
+questions. We will have one of them (or sometimes more than one) in
+almost every class. Some of these will be quizzes where you only get
+points for correct answers, and others will be just based on
+participation.</p>
+<h2 id="discussion-activities">Discussion activities</h2>
+<h3 id="purpose-2">Purpose</h3>
+<ul>
+<li>To practice skills, understand ideas more deeply, and have
+interesting discussions</li>
+</ul>
+<p>Discussion section is a required part of this class. Be present, be
+prepared, and be on time. Ask questions, contribute to discussions, and
+participate in activities. Be helpful and respectful to others.</p>
+<h2 id="problem-sets">Problem sets</h2>
+<h3 id="purpose-3">Purpose</h3>
+<ul>
+<li>To practice core skills</li>
+<li>To get regular feedback on your progress with core skills</li>
+</ul>
+<p>Problem sets will include calculations, drawing diagrams, as well as
+short written reflections about philosophical questions. There will be
+five problem sets, spread out through the semester (see the <a
+href="#schedule">class schedule</a>).</p>
+<p>Problem sets will be <strong>due in class at the beginning of
+class</strong> on the day of the deadline (8:30am Pacific time). If you
+do not turn in a problem set at the beginning of class, you will use a
+late day (see the <a href="#late-policies">Late Policies</a> below).</p>
+<h2 id="midterm">Midterm</h2>
+<p>There will be one in-class midterm (see the <a href="#schedule">class
+schedule</a>).</p>
+<h3 id="purpose-4">Purpose</h3>
+<ul>
+<li><p>To help you consolidate your understanding so far</p></li>
+<li><p>To evaluate your knowledge and understanding of the main
+ideas</p></li>
+<li><p>To evaluate your ability to apply core skills</p></li>
+</ul>
+<h2 id="final-exam">Final Exam</h2>
+<p>There will be a comprehensive in-class final exam.</p>
+<h3 id="purpose-5">Purpose</h3>
+<ul>
+<li><p>To give you an opportunity to reflect on what you have learned
+through the whole semester, and put all the pieces together.</p></li>
+<li><p>To evaluate your understanding of ideas and mastery of skills
+from the entire class, and your ability to apply them.</p></li>
+</ul>
+<h1 id="late-policies">Late Policies</h1>
+<h2 id="problem-sets-1">Problem Sets</h2>
+<p>Life is messy, and sometimes you just can’t reasonably get homework
+done on time. Instead of dealing with all of these problems case by
+case, <strong>everyone gets ten “late days”</strong> to use on any
+problem set, no questions asked.</p>
+<p>You can split up your late days however you want: for example, you
+can spend all your late days on one assignment and turn it in ten days
+late, or you can turn in every problem set two days late. (You can’t use
+just half a late day, though: if the assignment is a few hours late,
+that uses up a whole late day. Days when we don’t have class meetings
+still count, including weekends and holidays.)</p>
+<p>There is no grade penalty for spending a late day. <strong>But after
+you have spent all of your late days, you will not get any more credit
+for late work.</strong> So don’t spend all your late days on the first
+assignment! Save them for real emergencies when you need them.</p>
+<p>Late work can be turned into Jeff’s mailbox in the main philosophy
+office (MHP 113). Make sure to write the date and time that you turn it
+in at the top.</p>
+<h2
+id="reading-quizzes-check-in-quizzes-and-discussion-activities">Reading
+Quizzes, Check-in Quizzes, and Discussion Activities</h2>
+<p>Reading questions, check-in quizzes, and discussion activities
+<strong>cannot be made up or turned in late.</strong> This is because
+these assignments are difficult to fairly administer at alternative
+times, and each particular one of them is worth a very small fraction of
+your overall grade.</p>
+<h1 id="schedule">Schedule</h1>
+<p>The following schedule is provisional. I will make adjustments
+through the semester, which may affect assignment deadlines or the
+midterm date. Watch for updates.</p>
+<p>RB is <em>Reason Better</em> (available through <a
+href="#top-hat">Top Hat</a>). O&amp;E is <em>Odds and Ends</em>
+(available free <a href="https://jonathanweisberg.org/vip/">online</a>).
+Other readings besides these will also be distributed through Top
+Hat.</p>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 45%" />
+<col style="width: 21%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><em>Date</em></th>
+<th style="text-align: left;"><em>Topic</em></th>
+<th style="text-align: left;"><em>Read This</em></th>
+<th style="text-align: left;"><em>Turn This In</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Part 1</strong></td>
+<td style="text-align: left;"><strong>Thinking Clearly</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Aug 25</td>
+<td style="text-align: left;"><strong>The true and the
+good.</strong></td>
+<td style="text-align: left;">RB ch. 1.1 (“Reasoning”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Aug 27</td>
+<td style="text-align: left;"><strong>Thinking fast and slow.</strong>
+Your mind’s two systems, and why they matter</td>
+<td style="text-align: left;">RB ch. 1.2 and 1.3 (“Reasoning”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Sep 1</td>
+<td style="text-align: left;"><em>Labor Day</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Sep 3</td>
+<td style="text-align: left;"><strong>Mindset.</strong> Accuracy,
+degrees of confidence, bias</td>
+<td style="text-align: left;">RB sec. 2.1 and 2.2 (“Mindset”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Part 2</strong></td>
+<td style="text-align: left;"><strong>Responding to
+Evidence</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Sep 8</td>
+<td style="text-align: left;"><strong>Evidence.</strong> The evidence
+test.</td>
+<td style="text-align: left;">RB sec. 2.3 (“Mindset”) and 5.1
+(“Evidence”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Sep 10</td>
+<td style="text-align: left;"><strong>How to change your mind.</strong>
+Strength factors, odds, updating</td>
+<td style="text-align: left;">RB sec. 8.1 “Updating”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Sep 15</td>
+<td style="text-align: left;"><strong>How to outsmart doctors, lawyers,
+and the police.</strong> Updating pitfalls, prior neglect</td>
+<td style="text-align: left;">RB sec. 8.2 and 8.3. <em>Optional:</em>
+Jemisin, “Non-Zero Probabilities”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Sep 17</td>
+<td style="text-align: left;"><strong>Ifs, ands, ors.</strong>
+Probability of conjunctions and disjunctions</td>
+<td style="text-align: left;">O&amp;E ch 5 “Calculating
+Probabilities”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Sep 22</td>
+<td style="text-align: left;"><strong>What if?</strong> Calculating
+conditional probabilities</td>
+<td style="text-align: left;">O&amp;E ch. 6 “Conditional
+Probability”</td>
+<td style="text-align: left;">Problem set 1: evidence</td>
+</tr>
+<tr>
+<td style="text-align: left;">W Sep 24</td>
+<td style="text-align: left;"><strong>Calculating
+probabilities</strong></td>
+<td style="text-align: left;">O&amp;E ch. 7 “Calculating Probabilities,
+Part 2”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Sep 29</td>
+<td style="text-align: left;"><strong>Looking at the whole
+picture.</strong> Selection effects, media biases</td>
+<td style="text-align: left;">RB sec. 5.2, 5.3 “Evidence”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Part 3</strong></td>
+<td style="text-align: left;"><strong>Choosing Well</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Oct 1</td>
+<td style="text-align: left;"><strong>Consider your options.</strong>
+Decision tables and decision trees</td>
+<td style="text-align: left;">RB sec. 9.1 (“Decisions”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Oct 6</td>
+<td style="text-align: left;"><strong>Tell me what you want (what you
+really really want).</strong> Utility and expected utility</td>
+<td style="text-align: left;">O&amp;E ch. 12 “Utility”</td>
+<td style="text-align: left;">Problem set 2: calculating
+probabilities</td>
+</tr>
+<tr>
+<td style="text-align: left;">W Oct 8</td>
+<td style="text-align: left;"><strong>Mistakes were made.</strong>
+Decision-making pitfalls</td>
+<td style="text-align: left;">RB sec. 9.2 (“Decisions”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Oct 13</td>
+<td style="text-align: left;"><strong>Is voting pointless?</strong> A
+decision theory application</td>
+<td style="text-align: left;">Barnett, “Why You Should Vote to Change
+the Outcome”, sections 1–4</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Oct 15</td>
+<td style="text-align: left;">Catch-up</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Oct 20</td>
+<td style="text-align: left;">Midterm</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Midterm (in class)</td>
+</tr>
+<tr>
+<td style="text-align: left;">W Oct 22</td>
+<td style="text-align: left;"><strong>Long shots.</strong> Extreme
+decision theory.</td>
+<td style="text-align: left;">Bostrom, “Pascal’s Mugging”.
+<em>Optional:</em> Bostrom, “Astronomical Waste”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Part 4</strong></td>
+<td style="text-align: left;"><strong>Philosophical
+Foundations</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Oct 27</td>
+<td style="text-align: left;"><strong>Why should I?</strong> Long run
+arguments, axiomatic arguments</td>
+<td style="text-align: left;">Decision Theory FAQ, secs. 8–8.6.2</td>
+<td style="text-align: left;">Problem Set 3: expected utility</td>
+</tr>
+<tr>
+<td style="text-align: left;">W Oct 29</td>
+<td style="text-align: left;"><strong>Risk and rationality</strong> The
+independence axiom, the Allais paradox</td>
+<td style="text-align: left;">O&amp;E sec. 13.1–13.3, “Challenges to
+Expected Utility”</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Nov 3</td>
+<td style="text-align: left;"><strong>Belief and action.</strong>
+Betting rates</td>
+<td style="text-align: left;">O&amp;E ch. 16 (“Beliefs and Betting
+Rates”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Nov 5</td>
+<td style="text-align: left;"><strong>Coherence.</strong> Dutch
+books</td>
+<td style="text-align: left;">O&amp;E ch. 17 (“Dutch Books”)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Nov 10</td>
+<td style="text-align: left;"><strong>Close to the truth.</strong>
+Accuracy</td>
+<td style="text-align: left;">Pettigrew, selections from <em>Accuracy
+and the Laws of Credence</em></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Nov 12</td>
+<td style="text-align: left;">TBD</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Part 5</strong></td>
+<td style="text-align: left;"><strong>Working Together</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Nov 17</td>
+<td style="text-align: left;"><strong>Sudden but inevitable
+betrayal.</strong> Game theory basics, prisoner’s dilemmas</td>
+<td style="text-align: left;">Peterson, sec. 11.1–11.3</td>
+<td style="text-align: left;">Problem set 4: philosophical
+foundations</td>
+</tr>
+<tr>
+<td style="text-align: left;">W Nov 19</td>
+<td style="text-align: left;"><strong>Coordination and trust.</strong>
+Nash equilibrium strategies, stag hunts</td>
+<td style="text-align: left;">Peterson, sec. 11.5, 12.1</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Nov 24</td>
+<td style="text-align: left;">Continued</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Nov 26</td>
+<td style="text-align: left;"><em>Thanksgiving break</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">M Dec 1</td>
+<td style="text-align: left;">Game theory applications.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Dec 3</td>
+<td style="text-align: left;">Catch-up and review</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Problem set 5: game theory</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">W Dec 10</td>
+<td style="text-align: left;">Final exam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Final exam 8–10am</td>
+</tr>
+</tbody>
+</table>
+<h1 id="equality">Equality</h1>
+<p>This classroom is a safe space. Discrimination on the basis of race,
+gender, sexuality, religion, age, or other identities is unacceptable.
+If at any time while at USC you feel you have experienced harassment or
+discrimination, you can file a complaint: see <a
+href="http://equity.usc.edu" class="uri">http://equity.usc.edu</a> for
+more information. You are also welcome to bring the complaint to any
+faculty or staff member at USC.</p>
+<h1 id="academic-integrity">Academic Integrity</h1>
+<p>The University of Southern California is foremost a learning
+community committed to fostering successful scholars and researchers
+dedicated to the pursuit of knowledge and the transmission of ideas.
+Academic misconduct is contrary to this fundamental mission and includes
+any act of dishonesty in the submission of academic work (either in
+draft or final form), as well as cheating, plagiarism, fabrication
+(e.g., falsifying data), knowingly assisting others in acts of academic
+dishonesty, and any act that gains or is intended to gain an unfair
+academic advantage. Students are expected to uphold the highest
+standards of academic integrity in all coursework.</p>
+<p>This course follows the expectations for academic integrity as stated
+in the <a href="https://policy.usc.edu/studenthandbook/">USC Student
+Handbook</a>. All students are expected to submit assignments that are
+original work and prepared specifically for the course/section in this
+academic term. Students may not submit work written by others or
+“recycle” work prepared for other courses without obtaining written
+permission from the instructor(s). Students suspected of academic
+misconduct will be reported to the Office of Academic Integrity.</p>
+<p>Academic dishonesty has a far-reaching impact and is considered a
+serious offense against the university. Violations will result in a
+grade penalty, such as a failing grade on the assignment or in the
+course, and disciplinary action from the university, such as suspension
+or expulsion.</p>
+<p>For more information about academic integrity see the <a
+href="https://policy.usc.edu/studenthandbook/">Student Handbook</a>, the
+<a href="https://academicintegrity.usc.edu/">Office of Academic
+Integrity’s website</a>, and university policies on <a
+href="https://policy.usc.edu/research-and-scholarship-misconduct/">Research
+and Scholarship Misconduct</a>.</p>
+<p>Please ask your instructor if you are unsure what constitutes
+unauthorized assistance on an exam or assignment or what information
+requires citation and/or attribution.</p>
+<h1 id="ai-policy">AI Policy</h1>
+<p>You can use AI to help you study, but never to do your homework for
+you.</p>
+<p>Here is a good rule of thumb: you may use generative AI (such as
+ChatGPT, Copilot, Claude, Gemini, Grammarly, …) in the same way you
+might use a classmate or a tutor — to ask questions, to check your
+understanding, or to talk through ideas. You may not use AI to generate
+problem set answers, write up solutions or reflections, answer reading
+questions, or otherwise do the work the assignments are meant to teach
+you. That will be considered plagiarism in the same way as if you had
+turned in another person’s work as your own.</p>
+<p>This restriction is for your benefit. The point of the class
+assignments is to practice and develop the skills yourself; if you
+outsource the work, you won’t learn the skills, you won’t do well on the
+exams, and you won’t gain much of value from this class.</p>
+<p>Also, remember that generative AI often hallucinates, makes errors in
+reasoning, and even fails at simple arithmetic. Relying on it to produce
+answers is risky as well as inappropriate.</p>
+<p>If you are unsure whether a particular use of AI is acceptable, ask
+me in advance.</p>
+<h1 id="support-systems">Support Systems</h1>
+<p><strong>Students and Disability Accommodations.</strong> USC welcomes
+students with disabilities into all of the University’s educational
+programs. The <a href="https://osas.usc.edu/">Office of Student
+Accessibility Services (OSAS)</a> is responsible for the determination
+of appropriate accommodations for students who encounter
+disability-related barriers. Once a student has completed the OSAS
+process (registration, initial appointment, and submitted documentation)
+and accommodations are determined to be reasonable and appropriate, a
+Letter of Accommodation (LOA) will be available to generate for each
+course. The LOA must be given to each course instructor by the student
+and followed up with a discussion. This should be done as early in the
+semester as possible as accommodations are not retroactive. More
+information can be found at &lt;osas.usc.edu&gt;. You may contact OSAS
+at (213) 740-0776 or via email at <a href="mailto:osasfrontdesk@usc.edu"
+class="email">osasfrontdesk@usc.edu</a>.</p>
+<p><strong>Student Financial Aid and Satisfactory Academic
+Progress.</strong> To be eligible for certain kinds of financial aid,
+students are required to maintain Satisfactory Academic Progress (SAP)
+toward their degree objectives. Visit the <a
+href="https://financialaid.usc.edu/">Financial Aid Office webpage</a>
+for <a
+href="https://financialaid.usc.edu/help-contact/">undergraduate</a>- and
+<a
+href="https://financialaid.usc.edu/graduate-professional-financial-aid/admitted-and-continuing-students/eligibility/">graduate-level</a>
+SAP eligibility requirements and the appeals process.</p>
+<p><a
+href="https://sites.usc.edu/counselingandmentalhealth/"><em>Counseling
+and Mental Health</em></a> — (213) 740-9355 — 24/7 on call<br />
+Free and confidential mental health treatment for students, including
+short-term psychotherapy, group counseling, stress fitness workshops,
+and crisis intervention.</p>
+<p><a href="http://988lifeline.org/"><em>988 Suicide and Crisis
+Lifeline</em></a> - 988 for both calls and text messages – 24/7 on
+call<br />
+The 988 Suicide and Crisis Lifeline (formerly known as the National
+Suicide Prevention Lifeline) provides free and confidential emotional
+support to people in suicidal crisis or emotional distress 24 hours a
+day, 7 days a week, across the United States. The Lifeline consists of a
+national network of over 200 local crisis centers, combining custom
+local care and resources with national standards and best practices. The
+new, shorter phone number makes it easier for people to remember and
+access mental health crisis services (though the previous 1 (800)
+273-8255 number will continue to function indefinitely) and represents a
+continued commitment to those in crisis.</p>
+<p><a href="https://sites.usc.edu/clientservices/"><em>CARE-SC:
+Confidential Advocacy, Resources, and Education Support Center</em></a>
+— (213) 740-9355(WELL) – 24/7/365 on call<br />
+Confidential advocates, prevention educators, and professional
+counseling teams work to promote a universal culture of consent, as well
+as prevent and respond to sexual assault, intimate partner violence,
+stalking, or other relationship harm. Services available to all USC
+students at no cost.</p>
+<p><a href="http://eeotix.usc.edu/"><em>Office of Civil Rights
+Compliance</em></a> — (213) 740-5086<br />
+Information about how to get help or help someone affected by
+harassment, discrimination, retaliation on the basis of a protected
+characteristic, rights of protected classes, reporting options, and
+additional resources for students, faculty, staff, visitors, and
+applicants.</p>
+<p><a href="https://report.usc.edu/"><em>USC Report &amp;
+Response</em></a> — (213) 740-2500<br />
+The USC Report &amp; Response website is the university’s central
+reporting portal for concerns arising in the academic space or
+workplace. All concerns will be assessed and referred to the appropriate
+university office for resolution. Any questions about USC Report &amp;
+Response or reporting, in general, can be referred to the <a
+href="https://ope.usc.edu/office-of-professionalism-and-ethics/">Office
+of Professionalism and Ethics</a> at <a href="mailto:ope@usc.edu"
+class="email">ope@usc.edu</a>.</p>
+<p><a href="http://osas.usc.edu/"><em>The Office of Student
+Accessibility Services (OSAS)</em></a> — (213) 740-0776<br />
+OSAS ensures equal access for students with disabilities through
+providing academic accommodations and auxiliary aids in accordance with
+federal laws and university policy.</p>
+<p><a href="https://campussupport.usc.edu/"><em>USC Campus Support and
+Intervention</em></a> — (213) 740-0411<br />
+Focuses on student success by assisting students in navigating and
+resolving complex issues through problem solving, presenting options,
+and connecting to resources.</p>
+<p><a href="https://emergency.usc.edu/"><em>USC Emergency
+Information</em></a><br />
+Latest updates regarding safety, including ways in which instruction
+will be continued if an officially declared emergency makes travel to
+campus infeasible.</p>
+<p><a href="https://dps.usc.edu/"><em>USC Department of Public
+Safety</em></a><br />
+For 24 hour emergency assistance or to report a crime: UPC: (213)
+740-4321, HSC: (323)-442-1000<br />
+For 24 hour non-emergency assistance or information: UPC: (213)
+740-6000, HSC: (323)-442-1200</p>
+<p><a href="https://ombuds.usc.edu/"><em>Office of the Ombuds</em></a> -
+(213) 821-9556 (UPC) / (323) 442-0382 (HSC)<br />
+A safe and confidential place to share your USC-related issues with a
+University Ombuds who will work with you to explore options or paths to
+manage your concern.</p>
+<p><a href="https://chan.usc.edu/otfp"><em>Occupational Therapy Faculty
+Practice</em></a> - (323) 442-2850 or <a
+href="mailto:otfp@med.usc.edu">otfp@med.usc.edu</a><br />
+Confidential Lifestyle Redesign services for USC students to support
+health promoting habits and routines that enhance quality of life and
+academic performance.</p>
+</body>
+</html>
