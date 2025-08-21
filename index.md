@@ -26,13 +26,15 @@ I've been working on a textbook for this class.
 
 I also teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, philosophy of religion, philosophy of language, and philosophy of math.
 
-## Fall 2023
+## Fall 2025
 
--   [The Limits of Logic (PHIL 450)](logic-450-2023.html)
--   Dissertation Seminar (PHIL 700)
+-   [Probability and Rational Choice (PHIL 258g, Fall 2025)](courses/probability-fall-2025.html)
 
 ## Past Courses
 
+-   [Seminar in Ethics: Value in a Vast and Uncertain World, Spring 2025](https://tinyurl.com/readings-vast-value)
+-   [The Limits of Logic (PHIL 450)](logic-450-2023.html)
+-   Dissertation Seminar (PHIL 700)
 -   [The Limits of Logic (PHIL 450, Fall 2022)](logic-450-2022.html)
 -   [Probability and Rational Choice (PHIL 258g, Fall 2021)](courses/probability-fall-2021.html)
 -   [The End of the World (GESM 120g, Spring 2021)](courses/gesm-spring-2021.html)
