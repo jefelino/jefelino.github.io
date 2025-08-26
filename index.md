@@ -75,11 +75,10 @@ Here are some places philosophy jobs are posted. (If you know of other good plac
 
 [University of Southern California, School of Philosophy](http://dornsife.usc.edu/phil/)
 
-## Office Hours: on research leave Fall 2024
-<!-- 
+## Office Hours Fall 2025
+
 | Mudd Hall of Philosophy 205E
-| Monday 3:30–4:30pm
-| Wednesday 3:30–4:15pm
-| or [by appointment](https://calendly.com/jeff-russell) -->
+| Wednesday 10–11am
+| or [by appointment](https://tinyurl.com/meet-jeff-russell)
 
 
