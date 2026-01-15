@@ -13,16 +13,17 @@ I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of d
 
 # teaching
 
-I regularly teach Probability and Rational Choice (PHIL 258g), which is about living with uncertainty, making choices, and working together, using tools from philosophy, psychology, math, and economics.
+I regularly teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, ethics, and philosophy of religion. Here are a couple of my usuals.
 
-I also regularly teach The Limits of Logic (PHIL 450), which is about
+*   **Probability and Rational Choice** (PHIL 258g) is about living with uncertainty, making choices, and working together, using tools from philosophy, psychology, math, and economics.
+
+*   **The Limits of Logic** (PHIL 450) is about
 the limits of what can be said, proven, calculated, or counted.
-We study deep human discoveries about the infinite and the indescribable. If you've taken intro logic (or suitable courses in math, computer science, or linguistics) and you're interested in taking 450, [contact me](#contact). (The official prerequisite can be waived.)
+We study deep human discoveries about the infinite and the indescribable.
+    
+    I've been working on a textbook for this class.
+    [Here's a draft.](limits-of-logic.pdf)
 
-I've been working on a textbook for this class.
-[Here's a draft.](limits-of-logic.pdf)
-
-I also teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, philosophy of religion, philosophy of language, and philosophy of math.
 
 ## Spring 2026
 
