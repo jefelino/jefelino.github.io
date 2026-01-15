@@ -8,8 +8,6 @@ Professor of Philosophy
 
 I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics, logic, and philosophy of science. Nowadays I do a lot of work in formal epistemology, decision theory, and ethics. I'm also very interested in philosophy of mathematics and philosophy of religion.
 
-I am the Director of Graduate Studies for the USC School of Philosophy.
-
 *   [Here's my CV](cv.pdf)
 *   [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
 
@@ -26,15 +24,16 @@ I've been working on a textbook for this class.
 
 I also teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, philosophy of religion, philosophy of language, and philosophy of math.
 
-## Fall 2025
+## Spring 2026
 
--   [Probability and Rational Choice (PHIL 258g, Fall 2025)](courses/probability-fall-2025.html)
+-   [Philosophy of Economics (PHIL 339)](https://tinyurl.com/phil-econ-s26)
 
 ## Past Courses
 
+-   [Probability and Rational Choice (PHIL 258g, Fall 2025)](courses/probability-fall-2025.html)
 -   [Seminar in Ethics: Value in a Vast and Uncertain World, Spring 2025](https://tinyurl.com/readings-vast-value)
 -   [The Limits of Logic (PHIL 450)](logic-450-2023.html)
--   Dissertation Seminar (PHIL 700)
+-   [Dissertation Seminar (PHIL 700)](https://docs.google.com/document/d/1fagvV999QwHe5GroKc4SwcG_k0c2ICygXmTci7kEdjo/edit?usp=sharing)
 -   [The Limits of Logic (PHIL 450, Fall 2022)](logic-450-2022.html)
 -   [Probability and Rational Choice (PHIL 258g, Fall 2021)](courses/probability-fall-2021.html)
 -   [The End of the World (GESM 120g, Spring 2021)](courses/gesm-spring-2021.html)
@@ -75,10 +74,10 @@ Here are some places philosophy jobs are posted. (If you know of other good plac
 
 [University of Southern California, School of Philosophy](http://dornsife.usc.edu/phil/)
 
-## Office Hours Fall 2025
+## Office Hours Spring 2026
 
 | Mudd Hall of Philosophy 205E
-| Wednesday 10–11am
+| Tuesday 12:30–1:30pm
 | or [by appointment](https://tinyurl.com/meet-jeff-russell)
 
 
