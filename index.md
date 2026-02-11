@@ -57,7 +57,7 @@ We study deep human discoveries about the infinite and the indescribable.
 
 # placement
 
-Here are a few things I put together during my time as placement director for USC philosophy. USC Philosophy has a [strong track record](https://dornsife.usc.edu/phil/placement-record/) of helping our PhD students find jobs.
+Here are a few things I put together during my time as placement director for USC philosophy. USC Philosophy has a [strong track record](https://dornsife.usc.edu/phil/placement/) of helping our PhD students [find jobs](https://dailynous.com/2026/02/11/placement-program-ratings-student-comments-and-keywords-an-apda-update-guest-post/).
 
 -   [General information about USC's job placement process](placement/placement-notes-2022.pdf)
 -   [Advice for job market materials](placement/placement-advice.pdf)
