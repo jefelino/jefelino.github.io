@@ -13,21 +13,18 @@ I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of d
 
 # teaching
 
-I regularly teach graduate seminars and undergraduate classes in metaphysics, epistemology, decision theory, ethics, and philosophy of religion. Here are a couple of my usuals.
+I regularly teach graduate seminars and undergraduate classes in logic, epistemology, decision theory, ethics, metaphysics, and philosophy of religion. Here are a couple of my usuals.
 
-*   **Probability and Rational Choice** (PHIL 258g) is about living with uncertainty, making choices, and working together, using tools from philosophy, psychology, math, and economics.
+*   [Probability and Rational Choice](courses/probability-fall-2025.html) (PHIL 258g) is about living with uncertainty, making choices, and working together, using tools from philosophy, psychology, math, and economics.
 
-*   **The Limits of Logic** (PHIL 450) is about
+*   [The Limits of Logic](logic-450-2023.html) (PHIL 450) is about
 the limits of what can be said, proven, calculated, or counted.
-We study deep human discoveries about the infinite and the indescribable.
-    
-    I've been working on a textbook for this class.
-    [Here's a draft.](limits-of-logic.pdf)
+We study deep human discoveries about the infinite and the indescribable. I've been writing a textbook for this class: [here's a draft.](limits-of-logic.pdf)
 
 
 ## Spring 2026
 
--   [Philosophy of Economics (PHIL 339)](https://tinyurl.com/phil-econ-s26)
+-   [Philosophy of Economics (PHIL 339)](https://tinyurl.com/phil-econ)
 
 ## Past Courses
 
