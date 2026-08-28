@@ -6,7 +6,7 @@ Professor of Philosophy
 
 # blurb
 
-I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics, logic, and philosophy of science. Nowadays I do a lot of work in formal epistemology, decision theory, and ethics. I'm also very interested in philosophy of mathematics and philosophy of religion.
+I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of different topics. I started out in metaphysics, logic, and philosophy of science. Nowadays I do a lot of work that uses formal tools to think about normative questions, in epistemology, decision theory, and ethics. I'm also very interested in philosophy of mathematics and philosophy of religion.
 
 *   [Here's my CV](cv.pdf)
 *   [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
@@ -22,12 +22,13 @@ the limits of what can be said, proven, calculated, or counted.
 We study deep human discoveries about the infinite and the indescribable. I've been writing a textbook for this class: [here's a draft.](limits-of-logic.pdf)
 
 
-## Spring 2026
+## Fall 2026
 
--   [Philosophy of Economics (PHIL 339)](https://tinyurl.com/phil-econ)
+-   [Game Theory (PHIL 599)](https://tinyurl.com/game-theory-syllabus)
 
 ## Past Courses
 
+-   [Philosophy of Economics (PHIL 339, Spring 2026)](https://tinyurl.com/phil-econ)
 -   [Probability and Rational Choice (PHIL 258g, Fall 2025)](courses/probability-fall-2025.html)
 -   [Seminar in Ethics: Value in a Vast and Uncertain World, Spring 2025](https://tinyurl.com/readings-vast-value)
 -   [The Limits of Logic (PHIL 450)](logic-450-2023.html)
@@ -59,23 +60,16 @@ Here are a few things I put together during my time as placement director for US
 -   [General information about USC's job placement process](placement/placement-notes-2022.pdf)
 -   [Advice for job market materials](placement/placement-advice.pdf)
 
-Here are some places philosophy jobs are posted. (If you know of other good places to look that aren't listed here, please let me know!)
-
--   [PhilJobs](https://philjobs.org)
--   [Academic Jobs Online](https://academicjobsonline.org/ajo)
--   [The Chronicle of Higher Education Jobs](https://jobs.chronicle.com)
-
-
 # contact
 
 <jeff.russell@usc.edu>
 
 [University of Southern California, School of Philosophy](http://dornsife.usc.edu/phil/)
 
-## Office Hours Spring 2026
+## Office Hours Fall 2026
 
 | Mudd Hall of Philosophy 205E
-| Tuesday 12:30–1:30pm
-| or [by appointment](https://tinyurl.com/meet-jeff-russell)
+| Wednesday 12–1pm
+| or [by appointment, using this link](https://tinyurl.com/meet-jeff-russell)
 
 
