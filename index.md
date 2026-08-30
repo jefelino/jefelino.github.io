@@ -11,6 +11,8 @@ I'm a philosopher at [USC](https://dornsife.usc.edu/phil/). I work on a lot of d
 *   [Here's my CV](cv.pdf)
 *   [Here are my publications](https://philpeople.org/profiles/jeffrey-sanford-russell)
 
+I've been working on a book about the structure of moral value in a vast and uncertain world: [here's a draft](risks/)
+
 # teaching
 
 I regularly teach graduate seminars and undergraduate classes in logic, epistemology, decision theory, ethics, metaphysics, and philosophy of religion. Here are a couple of my usuals.
